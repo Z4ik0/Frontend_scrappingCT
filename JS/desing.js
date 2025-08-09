@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loadingSpinner.classList.remove("hidden");
 
     try {
-      const response = await fetch("http://localhost:3000/buscar", {
+      const response = await fetch(`https://scrapingcumputrabajo2.onrender.com/buscar`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ cargo }),

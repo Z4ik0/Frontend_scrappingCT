@@ -51,10 +51,10 @@ function renderFila(t) {
 // Carga datos de JSON y prepara los trabajos
 async function cargarDatos() {
   try {
-    const trabajosRes = await fetch("../../data/scraped/trabajos.json");
+    const trabajosRes = await fetch(`https://scrapingcumputrabajo2.onrender.com/data/scraped/trabajos.json`);
     trabajos = await trabajosRes.json();
 
-    const codigosRes = await fetch("../../data/codigosP.json");
+    const codigosRes = await fetch(`https://scrapingcumputrabajo2.onrender.com/data/codigosP.json`);
     codigos = await codigosRes.json();
 
     // Agregar salario numérico para filtrar
