@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (response.ok) {
         // Redirige usando ruta absoluta para Live Server
         window.location.replace(
-          `${window.location.origin}/frontend/tabla/index.html`
+          `https://scrapcomputrabajo.vercel.app/tablas.html`
         );
       } else {
         result.innerHTML = `<span class="text-danger">Error en la búsqueda.</span>`;
