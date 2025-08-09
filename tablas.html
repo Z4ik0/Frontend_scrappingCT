@@ -93,33 +93,29 @@
       <div class="gap-3 mt-4">
         <p class="titulo-descargas">Descargas</p>
         <div class="contenedor-descargas">
-          <button
-            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-gray-800 hover:to-black rounded-xl shadow"
+          <a
+            href="https://scrapingcumputrabajo2.onrender.com/data/scraped/trabajos.json"
+            download="trabajos.json"
+            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-red-600 to-gray-800 hover:to-black rounded-xl shadow inline-flex items-center gap-2"
           >
-            <a
-              href="../../data/scraped/trabajos.json"
-              download="trabajos.json"
-            ></a>
             <i class="bi bi-filetype-json"></i> JSON
-          </button>
-          <button
-            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-green-500 to-yellow-600 hover:to-yellow-700 rounded-xl shadow"
+          </a>
+
+          <a
+            href="https://scrapingcumputrabajo2.onrender.com/data/scraped/trabajos.xlsx"
+            download="trabajos.xlsx"
+            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-green-500 to-yellow-600 hover:to-yellow-700 rounded-xl shadow inline-flex items-center gap-2"
           >
-            <a
-              href="../../data/scraped/trabajos.xlsx"
-              download="trabajos.xlsx"
-            ></a>
             <i class="bi bi-file-earmark-excel"></i> EXCEL
-          </button>
-          <button
-            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-yellow-400 to-green-600 hover:to-green-700 rounded-xl shadow"
+          </a>
+
+          <a
+            href="https://scrapingcumputrabajo2.onrender.com/data/scraped/trabajos.csv"
+            download="trabajos.csv"
+            class="px-5 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-yellow-400 to-green-600 hover:to-green-700 rounded-xl shadow inline-flex items-center gap-2"
           >
-            <a
-              href="../../data/scraped/trabajos.csv"
-              download="trabajos.csv"
-            ></a>
             <i class="bi bi-filetype-csv"></i> CSV
-          </button>
+          </a>
         </div>
       </div>
 
@@ -386,10 +382,15 @@
         <!-- fin de las tabs -->
       </div>
     </div>
-    <footer class="mt-12 bg-gradient-to-r from-blue-100 to-blue-300 py-6 rounded-t-2xl shadow-inner">
+    <footer
+      class="mt-12 bg-gradient-to-r from-blue-100 to-blue-300 py-6 rounded-t-2xl shadow-inner"
+    >
       <div class="flex flex-col items-center gap-2">
-        <span class="text-blue-700 text-lg font-semibold flex items-center gap-2">
-          <i class="bi bi-info-circle-fill"></i>Este proyecto no está hecho con fines lucrativos, solo educativos
+        <span
+          class="text-blue-700 text-lg font-semibold flex items-center gap-2"
+        >
+          <i class="bi bi-info-circle-fill"></i>Este proyecto no está hecho con
+          fines lucrativos, solo educativos
         </span>
         <span class="text-gray-500 text-xs">© 2025 CompuTrabajo Scraping</span>
       </div>
